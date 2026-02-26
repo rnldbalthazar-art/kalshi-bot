@@ -2,6 +2,8 @@ import time
 import requests
 import os
 
+print("=== bot.py module imported ===")  # NEW
+
 BASE_URL = "https://api.kalshi.com/trade-api/v2"
 
 def get_headers():
